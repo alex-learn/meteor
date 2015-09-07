@@ -1,0 +1,40 @@
+section {
+  border: 1px solid black;
+  margin: 20px;
+}
+
+div {
+  font-size: 10px;
+  width: 100px;
+  height: 60px;
+}
+
+.rotate10 {
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+  background-color: yellow !important;
+}
+
+.green-big {
+  background-color: green;
+  font-size: 2.4em;
+}
+
+.translate {
+  -ms-transform: translate(120px, 60px);
+  -webkit-transform: translate(120px, 60px);
+  transform: translate(120px, 60px);
+}
+
+.rotate {
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+.combined-transform {
+  -ms-transform: translate(120px, 60px) rotate(10deg);
+  -webkit-transform: translate(120px, 60px) rotate(10deg);
+  transform: translate(120px, 60px) rotate(10deg);
+}

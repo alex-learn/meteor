@@ -1,0 +1,49 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "bootstrap-3": {},
+      "SyntaxHighlighter": {},
+      "npm": {},
+      "codemirror": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.1",
+        "commit": "d1ffb3f06ea4c112132b030f2eb1a70b81675ecb"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      },
+      "SyntaxHighlighter": {
+        "git": "https://github.com/gadicohen/meteor-SyntaxHighlighter.git",
+        "tag": "v3.0.83-9",
+        "commit": "5dbcd9180a3ea16055e5ecf795e6b1da2c4be6ce"
+      },
+      "npm": {
+        "git": "https://github.com/arunoda/meteor-npm.git",
+        "tag": "v0.2.6",
+        "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
+      },
+      "codemirror": {
+        "git": "https://github.com/digioak/meteor-codemirror.git",
+        "tag": "v0.0.2",
+        "commit": "39185b6e97c485e7cd65a2ef84190923c050b0d8"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.4",
+        "commit": "b40e9b0612329288d75cf52ad14a7da64bb8618f"
+      },
+      "sp-marked": {
+        "git": "https://bitbucket.org/parhelium/sp-marked",
+        "tag": "v0.0.2",
+        "commit": "fd044a222eeb4902a62da5839162b3d6dbd477be"
+      }
+    }
+  }
+}

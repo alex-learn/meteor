@@ -1,0 +1,32 @@
+# Meteor packages used by this project, one per line.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+templating  # We need this for the <title> and <meta> tags - may replace at some point
+
+# Core meteor packages
+meteor
+webapp
+logging
+deps
+session
+livedata
+mongo-livedata
+check
+underscore
+reload
+random
+autoupdate
+accounts-github
+service-configuration
+less
+email
+http
+
+# Meteorite packages
+mystor:routecore
+mystor:parse-link-header
+mystor:later
+mizzao:bootstrap-3
+
